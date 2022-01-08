@@ -1,6 +1,7 @@
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
+import Login from "./pages/login";
 // import ContactUs from './pages/ContactUs/ContactUs';
 import './App.css';
 import React from 'react';
@@ -13,16 +14,16 @@ import {
 
 function App() {
   return (
-    
-      <Router>
-      <div>
-        <Navbar/>
-        <Routes>
-        <Route exact path="/home" element={<Home/>}/>
-        {/* <Route exact path="/contactus" element={<ContactUs/>}/> */}
-        </Routes>
-        </div>
-      </Router>
+    <Login/>
+      // <Router>
+      // <div>
+      //   <Navbar/>
+      //   <Routes>
+      //   <Route exact path="/home" element={<Home/>}/>
+      //   {/* <Route exact path="/contactus" element={<ContactUs/>}/> */}
+      //   </Routes>
+      //   </div>
+      // </Router>
     
      );
 }
