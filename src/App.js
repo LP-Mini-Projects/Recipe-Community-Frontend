@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home';
 import Login from "./pages/login";
+import TryRecipe from "./pages/TryRecipe"
 // import ContactUs from './pages/ContactUs/ContactUs';
 import './App.css';
 import React from 'react';
@@ -14,7 +15,8 @@ import {
 
 function App() {
   return (
-    <Login/>
+    <TryRecipe/>
+
       // <Router>
       // <div>
       //   <Navbar/>
