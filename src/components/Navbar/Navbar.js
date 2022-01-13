@@ -4,7 +4,6 @@ import { Tabs } from '@material-ui/core';
 import { Tab } from '@material-ui/core';
 import { NotificationsNone } from '@material-ui/icons';
 import './Navbar.css'
-
 //import Home from '../../pages/Home/Home';
 //import ContactUs from '../../pages/ContactUs/ContactUs';
 //import CreateRecipe from '../../pages/CreateRecipe/CreateRecipe';
