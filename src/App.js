@@ -16,7 +16,7 @@ import {
 function App() {
   return (
    
-<Login/>
+<TryRecipe/>
       // <Router>
       // <div>
       //   <Navbar/>
