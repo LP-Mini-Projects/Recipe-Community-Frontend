@@ -11,21 +11,22 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
+import CarouselMode from './components/CarouselMode';
+import Createrecipe from './pages/CreateRecipe/CreateRecipe';
 
 function App() {
   return (
-   
-<TryRecipe/>
-      // <Router>
-      // <div>
-      //   <Navbar/>
-      //   <Routes>
-      //   <Route exact path="/home" element={<Home/>}/>
-      //   {/* <Route exact path="/contactus" element={<ContactUs/>}/> */}
-      //   </Routes>
-      //   </div>
-      // </Router>
+    
+      <Router>
+      <div>
+        <Navbar/>
+        <Routes>
+        <Route exact path="/home" element={<Home/>}/>
+        {/* <Route exact path="/contactus" element={<ContactUs/>}/> */}
+        <Route exact path="/Createrecipe" element={<Createrecipe/>}/>
+        </Routes>
+        </div>
+      </Router>
     
      );
 }

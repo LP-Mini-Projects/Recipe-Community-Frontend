@@ -15,7 +15,7 @@ const TryRecipe = () => {
         <img src={tryPage} className="tryimgRadius"/>
     </div>
 </Grid>
-<Grid item lg={6}>
+<Grid item xs ={12}lg={6}>
     <div className="recipeDetails">
         <h1>Recipe Name</h1>
         <Typography className='textInGreen removeMargin'>Author Name</Typography>
@@ -24,7 +24,7 @@ const TryRecipe = () => {
     </div>
 </Grid>
 <Divider className="divider"/>
-<Grid item lg={3}>
+<Grid item xs={12}lg={3}>
     <div className='igredientsDiv'>
         <h3 className='textInGreen removeMargin'>Ingredients</h3>
         <Typography style={{color:"#58971C"}}>Serves 1-2</Typography>
@@ -38,8 +38,8 @@ const TryRecipe = () => {
 </ul>
     </div>
 </Grid>
-<Grid item lg={9}>
-    <div className="igredientsDiv margin-25">
+<Grid item xs={12} lg={9}>
+    <div className="stepsDiv margin-25">
     <h3 className='textInGreen removeMargin'>Instructions:</h3>
     <ul className="noBullets">
 <li>Step 1: <br/>
