@@ -2,6 +2,7 @@ import React from "react";
 import { PRIMARY_GREEN } from "../styles/colorPallete.js";
 import LoginWith from "../components/loginWith";
 import "../styles/login.css";
+import "../styles/loginWith.css";
 import Grid from "@mui/material/Grid";
 import Register from "../components/register";
 import useMediaQuery from "@mui/material/useMediaQuery";
@@ -16,8 +17,8 @@ const Login = () => {
 <h1 className="appName">
   tasty
 </h1>
-
       </div>
+      <div className="imagediv">
       <Grid container>
         <Grid item xs={8} sm={5.5} med={6} lg={6.5}>
           <Router>
@@ -33,6 +34,7 @@ const Login = () => {
           </Grid>
         )}
       </Grid>
+      </div>
     </>
   );
 };

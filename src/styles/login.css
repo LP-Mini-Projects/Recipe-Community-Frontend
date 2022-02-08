@@ -10,7 +10,7 @@
     height: 51px !important;
   }
   .appName{
-    font-size: 35px;
+    font-size: 35px!important;
   }
 }
 .appName{
@@ -20,4 +20,10 @@
   display: flex;
 padding-left: 3%;
 
+}
+@media screen and (max-width: 600px) {
+  .imagediv {
+    background-image: url(../assets/loginIMG.jpeg);
+ height: 923px;
+  }
 }
